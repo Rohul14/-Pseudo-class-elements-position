@@ -1,0 +1,38 @@
+body{
+    margin: 250px 130px;
+}
+.lady-gift-box{
+    position: relative;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+.lady-50{
+    position: absolute;
+    top: -67.9%;
+    left: 65.9%;
+}
+.dis-50{
+    position: absolute;
+    top: 19%;
+    left: -36%;
+}
+.box{
+    width: 40%;
+    margin-bottom: -165px;
+    padding-left: 20px;
+}
+/* img-file */
+.img-file{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.fixed{
+    margin-bottom: 200px;
+}
+.pos-fixed{
+    position: sticky;
+    top: 0px;
+}
